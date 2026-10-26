@@ -2,16 +2,16 @@
 ## TUGAS PRAKTIKUM: Tantangan Wajib
 
 ### 1. Update Harga Barang 
-
+```c
 void updateHarga(Barang *b, int hargaBaru) {
     int hargaLama = b->harga;
     b->harga = hargaBaru;
 
 }
-
+```
 ### 2. Update Nama Barang 
 NAMA BARANG DI UPDATE MENGGUNAKAN FUNGSI DIBAWAH
-
+```c
 #include <string.h>
 void updateNama(Barang *b, char namaBaru[]) {
     char namaLama[50];
@@ -19,7 +19,7 @@ void updateNama(Barang *b, char namaBaru[]) {
     strcpy(b->nama, namaBaru);
     
 }
-
+```
 ### 3. Tukar Poin = Diskon 
     TAMBAH BLOK KODE INI SETELAH TOTAL AWAL DITENTUKAN
 
