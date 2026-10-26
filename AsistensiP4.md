@@ -10,10 +10,9 @@ void updateHarga(Barang *b, int hargaBaru) {
 }
 
 ### 2. Update Nama Barang 
-
+NAMA BARANG DI UPDATE MENGGUNAKAN FUNGSI DIBAWAH
 
 #include <string.h>
-
 void updateNama(Barang *b, char namaBaru[]) {
     char namaLama[50];
     strcpy(namaLama, b->nama);
